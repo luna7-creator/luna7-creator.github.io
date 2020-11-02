@@ -1,8 +1,8 @@
-#conteneur
+#container
 {
 	
 	display: flex;
-	width: 600px;
+	width: auto;
 	justify-content: center;
 	
 }
@@ -14,13 +14,10 @@ h1 span
 h1
 {
 	text-align: auto;
+
 }
 
-body
-{
-	display: flex;
-	justify-content: center;
-}
+
 h5
 {
 	background-color: black;
@@ -36,26 +33,36 @@ div
 	margin-bottom: 20px;
 }
 
-.element:nth-child(1)
+.informations
 {
 	background-color: #FFD700;
-	text-align: justify;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 30%;
+	font-family: 'Lobster', cursive;
 
 }
-.element:nth-child(2)
+.parcours
 {
     background-color: white;
-    width: 300px;
+    width: auto;
     text-align: justify;
     margin-left: 50px;
+    font-family: 'Lobster', cursive;
 
-   
+   }
+.developpeuse 
+{
+	content: "develo"
+border: solid;
+color: green;
 }
 
  p img 
 {
 	margin-top: 30px;
-	margin-left: 90px;
+	margin-left: 350px;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -71,18 +78,24 @@ p
 
 
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 760px)
  
 {
-	#conteneur
+	#container
 {
 	flex-direction: column;
 	width: auto;
 
 
 } 
-}
-.element:nth-child(1)
+
+.informations
 {
 	width: 100%;
+}
+
+p img
+{
+	margin-left: 190px;
+	align-content: center;
 }
