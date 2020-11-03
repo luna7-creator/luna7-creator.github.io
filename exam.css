@@ -52,12 +52,21 @@ div
     font-family: 'Lobster', cursive;
 
    }
-.developpeuse 
-{
-	content: "develo"
-border: solid;
-color: green;
+.subtitle{
+  position:relative;
 }
+
+.subtitle::after{
+  position:absolute;
+  bottom:-5px;
+  left:0;
+  content:'';
+  width:50px;
+  height:5px;
+  background-color:gold;
+}
+
+
 
  p img 
 {
