@@ -16,7 +16,14 @@ h1
 	text-align: auto;
 
 }
+h2
+{
+	text-decoration: underline;
+	text-decoration-color: #FF66FF;
+	text-underline-position: under;
+	
 
+}
 
 h5
 {
@@ -36,12 +43,21 @@ div
 .informations
 {
 	background-color: #FFD700;
-	text-align: center;
-	padding-left: 20px;
-	padding-right: 20px;
+	text-align: justify;
 	width: 30%;
 	font-family: 'Lobster', cursive;
 
+}
+.details
+{
+	padding-left:20px;
+
+}
+	
+.me
+{
+    padding-left: 20px;
+    padding-right:20px;
 }
 .parcours
 {
@@ -66,16 +82,16 @@ div
   background-color:gold;
 }
 
-
-
- p img 
+ .photo 
 {
-	margin-top: 30px;
-	margin-left: 350px;
-	border-radius: 50%;
+	
 	display: flex;
 	justify-content: center;
 
+}
+img
+{
+	border-radius: 50%;
 }
 p
 {
@@ -100,11 +116,11 @@ p
 
 .informations
 {
-	width: 100%;
+	width: auto;
 }
 
-p img
+img
 {
-	margin-left: 190px;
-	align-content: center;
+	display: flex;
+	justify-content: center;
 }
