@@ -1,73 +1,59 @@
 #container
-{
-	
-	display: flex;
+{display: flex;
 	width: auto;
-	justify-content: center;
-	
+	justify-content: center;	
 }
-h1 span
-{
+
+h1 span{
 	color: gold;
 }
 
-h1
-{
+h1{
 	text-align: auto;
-
 }
-h2
-{
+
+h2{
 	text-decoration: underline;
 	text-decoration-color: #FF66FF;
 	text-underline-position: under;
-	
-
 }
 
-h5
-{
+h5{
 	background-color: black;
 	color: #FFD700;
 	padding: 5px;
 	text-align: center;
 }
                                                                                                  
-div
-{
+div{
 	display: flex;
 	justify-content: space-around;
 	margin-bottom: 20px;
 }
 
-.informations
-{
+.informations{
 	background-color: #FFD700;
 	text-align: justify;
 	width: 30%;
 	font-family: 'Lobster', cursive;
-
 }
-.details
-{
+.details{
 	padding-left:20px;
-
 }
 	
-.me
-{
+.me{
     padding-left: 20px;
     padding-right:20px;
 }
-.parcours
-{
+
+.parcours{
     background-color: white;
     width: auto;
     text-align: justify;
     margin-left: 50px;
     font-family: 'Lobster', cursive;
+ }
 
-   }
 .subtitle{
   position:relative;
 }
@@ -82,23 +68,20 @@ div
   background-color:gold;
 }
 
- .photo 
-{
+ .photo{
 	
 	display: flex;
 	justify-content: center;
-
 }
-img
-{
+
+img{
 	border-radius: 50%;
 }
-p
-{
+
+p{
 	padding-left: 0;
 	padding-right: 20px;
 	margin-bottom: 0;
-
 }
 
 
@@ -106,21 +89,16 @@ p
 @media screen and (max-width: 760px)
  
 {
-	#container
-{
+	#container{
 	flex-direction: column;
 	width: auto;
-
-
 } 
 
-.informations
-{
+.informations{
 	width: auto;
 }
 
-img
-{
+img{
 	display: flex;
 	justify-content: center;
 }
