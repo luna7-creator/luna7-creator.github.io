@@ -9,9 +9,8 @@ h1 span{
 	color: gold;
 }
 
-h1{
-	text-align: auto;
-}
+
+
 
 h2{
 	text-decoration: underline;
@@ -40,9 +39,11 @@ div {
 	width: 30%;
 	font-family: 'Lobster', cursive;
 }
-.details{
+.details
+{
 padding-left:20px;
-}	
+}
+
 .me{
     padding-left: 20px;
     padding-right:20px;
@@ -79,8 +80,6 @@ padding-left:20px;
 img{
 	border-radius: 50%;
 }
-
-
 
 
 
