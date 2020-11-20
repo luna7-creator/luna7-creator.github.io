@@ -33,6 +33,7 @@ div {
 	margin-bottom: 20px;
 }
 
+
 .informations{
 	background-color: #FFD700;
 	text-align: justify;
@@ -41,9 +42,9 @@ div {
 }
 h4
 {
-
-text-align: center;
+	text-align: center;
 }
+
 
 .details
 {
