@@ -89,11 +89,11 @@ img{
 	#container{
 	flex-direction: column;
 	width: auto;
-} 
+   } 
 
 .informations{
 	width: auto;
-}
+   }
 
 img{
 	display: flex;
