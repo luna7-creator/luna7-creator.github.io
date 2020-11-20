@@ -18,7 +18,10 @@ h2{
 	text-underline-position: under;
 }
 
-
+h4
+{
+	display: none;
+}
 
 h5{
 	background-color: black;
